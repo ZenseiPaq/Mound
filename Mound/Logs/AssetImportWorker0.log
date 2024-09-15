@@ -1,0 +1,468 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.22f1 (887be4894c44) revision 8944612'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'fr' Physical Memory: 16248 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Panko/Documents/GitHub/Mound/Mound/Mound
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57601
+Successfully changed project path to: C:/Users/Panko/Documents/GitHub/Mound/Mound/Mound
+C:/Users/Panko/Documents/GitHub/Mound/Mound/Mound
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [10476] Host "[IP] 10.0.0.14 [Port] 0 [Flags] 2 [Guid] 2455531798 [EditorId] 2455531798 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2VED6RD) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [10476] Host "[IP] 10.0.0.14 [Port] 0 [Flags] 2 [Guid] 2455531798 [EditorId] 2455531798 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2VED6RD) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 10.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.22f1 (887be4894c44)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Panko/Documents/GitHub/Mound/Mound/Mound/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 970 (ID=0x13c2)
+    Vendor:   NVIDIA
+    VRAM:     4037 MB
+    Driver:   31.0.15.3623
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56552
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010739 seconds.
+- Loaded All Assemblies, in  0.492 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.386 seconds
+Domain Reload Profiling: 877ms
+	BeginReloadAssembly (152ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (79ms)
+	LoadAllAssembliesAndSetupDomain (199ms)
+		LoadAssemblies (150ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (195ms)
+			TypeCache.Refresh (194ms)
+				TypeCache.ScanAssembly (172ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (386ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (305ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (210ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.983 seconds
+Refreshing native plugins compatible for Editor in 4.75 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.238 seconds
+Domain Reload Profiling: 2219ms
+	BeginReloadAssembly (225ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (626ms)
+		LoadAssemblies (467ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (296ms)
+			TypeCache.Refresh (259ms)
+				TypeCache.ScanAssembly (234ms)
+			ScanForSourceGeneratedMonoScriptInfo (26ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1239ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1010ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (147ms)
+			ProcessInitializeOnLoadAttributes (803ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 4.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3855 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (194.0 KB). Loaded Objects now: 4316.
+Memory consumption went from 149.1 MB to 148.9 MB.
+Total: 6.459900 ms (FindLiveObjects: 0.631000 ms CreateObjectMapping: 0.816100 ms MarkObjects: 4.843600 ms  DeleteObjects: 0.167900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 213234.190432 seconds.
+  path: Assets/Scenes/v2Malak Art Scene.unity
+  artifactKey: Guid(0f71664bfa5aec44dba4c2a5eceb7d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/v2Malak Art Scene.unity using Guid(0f71664bfa5aec44dba4c2a5eceb7d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ce7bf39339c5c930c80ce1900af7d1d') in 0.006595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 15.197249 seconds.
+  path: Assets/Scenes/Shop.unity
+  artifactKey: Guid(d2b29dd5392f24c4b9bd5ca50dc2e70a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Shop.unity using Guid(d2b29dd5392f24c4b9bd5ca50dc2e70a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6261d94f4870447541cc35fa041818fe') in 0.000510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1499.804703 seconds.
+  path: Assets/Environnement/Cave Wall Textures
+  artifactKey: Guid(d59f647abb34e3d44854e7207a878052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environnement/Cave Wall Textures using Guid(d59f647abb34e3d44854e7207a878052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dea7ba722f86aa0ce2c1ed90f5e03223') in 0.000544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.799295 seconds.
+  path: Assets/Environnement/Cave Wall Textures/Rock Wall Textures 1
+  artifactKey: Guid(0012bda25326bd9498ccbc545cb2ce61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environnement/Cave Wall Textures/Rock Wall Textures 1 using Guid(0012bda25326bd9498ccbc545cb2ce61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bab26951896e3aedf9b905570ad25630') in 0.000589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.781164 seconds.
+  path: Assets/Environnement/Cave Wall Textures/Rock Wall Textures 1/Rock Wall Textures 1
+  artifactKey: Guid(cbbae71d6e90ea242ae37f74c88f6a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environnement/Cave Wall Textures/Rock Wall Textures 1/Rock Wall Textures 1 using Guid(cbbae71d6e90ea242ae37f74c88f6a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c91bc30a6943525a72ec68beef1e2958') in 0.000567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.775818 seconds.
+  path: Assets/Environnement/Cave Wall Textures/Rock Wall Textures 1/Rock Wall Textures 1/Rock v2
+  artifactKey: Guid(375bc8def9c14d645b5b27aeecb231a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environnement/Cave Wall Textures/Rock Wall Textures 1/Rock Wall Textures 1/Rock v2 using Guid(375bc8def9c14d645b5b27aeecb231a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98e6f5d1b190d61b165bb3b178e332e8') in 0.000579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.113438 seconds.
+  path: Assets/Environnement/Cave Wall Textures/Rock Wall Textures 1/Rock Wall Textures 1/Rock v2/Material rock 2.mat
+  artifactKey: Guid(80c51653911a2fb449905c707ade5207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environnement/Cave Wall Textures/Rock Wall Textures 1/Rock Wall Textures 1/Rock v2/Material rock 2.mat using Guid(80c51653911a2fb449905c707ade5207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87d30ffdbe99f2bf1c5c4352f655d721') in 0.203003 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 5.974714 seconds.
+  path: Assets/Environnement/Cave Wall Textures/Cave wall 20x30
+  artifactKey: Guid(8d51fd0269bde4048be212570b275084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environnement/Cave Wall Textures/Cave wall 20x30 using Guid(8d51fd0269bde4048be212570b275084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dc1d375791591658018c26cc2501ba0') in 0.000631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.157128 seconds.
+  path: Assets/Environnement/Cave Wall Textures/Cave wall 20x30/30 Meter by 20 meter wall test.fbx
+  artifactKey: Guid(d83349e38af1f294f8e257f446044db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environnement/Cave Wall Textures/Cave wall 20x30/30 Meter by 20 meter wall test.fbx using Guid(d83349e38af1f294f8e257f446044db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b73128ec4910d6ccb130bc793d84e8bf') in 0.110098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 1.590985 seconds.
+  path: Assets/Environnement/Cave Wall Textures/Cave wall 20x30/Texture1
+  artifactKey: Guid(4e865a3ea643e284e8c88bbc8daaae6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environnement/Cave Wall Textures/Cave wall 20x30/Texture1 using Guid(4e865a3ea643e284e8c88bbc8daaae6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd32d36542d767ef775ba1c29e48a3ade') in 0.000693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.102002 seconds.
+  path: Assets/Environnement/Cave Wall Textures/Cave wall 20x30/Texture1/30 Meter by 20 meter wall test_standardSurface1_BaseMap.png
+  artifactKey: Guid(19c67292f340a7e40a96accf8ddf4b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environnement/Cave Wall Textures/Cave wall 20x30/Texture1/30 Meter by 20 meter wall test_standardSurface1_BaseMap.png using Guid(19c67292f340a7e40a96accf8ddf4b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bd07362019fab1a49ac5dde35b9d9d5') in 0.035163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 9.961649 seconds.
+  path: Assets/Environnement/Cave Wall Textures/Cave wall 20x30/Texture1/Materials
+  artifactKey: Guid(efe9ea0083bd0094e97f087c55ade141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environnement/Cave Wall Textures/Cave wall 20x30/Texture1/Materials using Guid(efe9ea0083bd0094e97f087c55ade141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8449dbf90f95a698e9dd540ff25a33e') in 0.000533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.080515 seconds.
+  path: Assets/Environnement/Cave Wall Textures/Cave wall 20x30/Texture1/Materials/30 Meter by 20 meter wall test_standardSurface1_Normal.mat
+  artifactKey: Guid(ef4f4283e89313e40be065e8b7d8c252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environnement/Cave Wall Textures/Cave wall 20x30/Texture1/Materials/30 Meter by 20 meter wall test_standardSurface1_Normal.mat using Guid(ef4f4283e89313e40be065e8b7d8c252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '018be711ac07833aa4e5665c4c0757c4') in 0.020216 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 7.978126 seconds.
+  path: Assets/Environnement/Cave Wall Textures/Rock Wall Textures 1/Rock Wall Textures 1/Rock v1
+  artifactKey: Guid(6b7b38b890e50e541afb6b2abfe49a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environnement/Cave Wall Textures/Rock Wall Textures 1/Rock Wall Textures 1/Rock v1 using Guid(6b7b38b890e50e541afb6b2abfe49a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b91bfa09d356a2e7bf154d9a537ce54d') in 0.000852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.093207 seconds.
+  path: Assets/Environnement/Cave Wall Textures/Rock Wall Textures 1/Rock Wall Textures 1/Rock v1/Rock1.mat
+  artifactKey: Guid(b0a6a212c6593194693aadb784d5f48e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environnement/Cave Wall Textures/Rock Wall Textures 1/Rock Wall Textures 1/Rock v1/Rock1.mat using Guid(b0a6a212c6593194693aadb784d5f48e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4880f6de639dfd3ddd815361bf1e4a4') in 0.029696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Environnement/Cave Wall Textures/Rock Wall Textures 1/Rock Wall Textures 1/Rock v1/Wall without Texture 1_standardSurface1_MaskMap.png
+  artifactKey: Guid(10cd6e5e5efe5f04f9a5c157a83b64c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environnement/Cave Wall Textures/Rock Wall Textures 1/Rock Wall Textures 1/Rock v1/Wall without Texture 1_standardSurface1_MaskMap.png using Guid(10cd6e5e5efe5f04f9a5c157a83b64c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeb433d45c4cf7ed18dc190b52b61e74') in 0.012201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 163.060849 seconds.
+  path: Assets/Environnement/Cave Wall Textures/Rock Wall Textures 1/Rock Wall Textures 1/Rock v3
+  artifactKey: Guid(d0fb07fe5ba2ace47b43460321a09aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environnement/Cave Wall Textures/Rock Wall Textures 1/Rock Wall Textures 1/Rock v3 using Guid(d0fb07fe5ba2ace47b43460321a09aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f4722bd3f5a80d8d22264dc3a877beb') in 0.000688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.136725 seconds.
+  path: Assets/Environnement/Cave Wall Textures/Rock Wall Textures 1/Rock Wall Textures 1/Rock v3/texture.mat
+  artifactKey: Guid(cb278a0fd1d038840b14c7538ebe3bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environnement/Cave Wall Textures/Rock Wall Textures 1/Rock Wall Textures 1/Rock v3/texture.mat using Guid(cb278a0fd1d038840b14c7538ebe3bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96668be4424f291bf967360dabdb2d9c') in 0.066668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 104.210729 seconds.
+  path: Assets/Environnement/Cave Wall Textures/Cave Probuilder Color2.prefab
+  artifactKey: Guid(fb6cc5c39dc32f44597653fd930dac57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environnement/Cave Wall Textures/Cave Probuilder Color2.prefab using Guid(fb6cc5c39dc32f44597653fd930dac57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b52cb2ca4f4e81f26b39e8821c64197e') in 0.045630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 18.892308 seconds.
+  path: Assets/Environnement/Cave Wall Textures/Rock Wall Textures 1/Rock Wall Textures 1/Rock v3/Materials
+  artifactKey: Guid(74bb269b45efb2c43a91f5e40e47062b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environnement/Cave Wall Textures/Rock Wall Textures 1/Rock Wall Textures 1/Rock v3/Materials using Guid(74bb269b45efb2c43a91f5e40e47062b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '961b4f6094dc1de785d6ebf9cf539fce') in 0.000547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.089758 seconds.
+  path: Assets/Environnement/Cave Wall Textures/Rock Wall Textures 1/Rock Wall Textures 1/Rock v3/Materials/Wall without Texture 1_standardSurface1_BaseMap.mat
+  artifactKey: Guid(d46fafa44d1f2ee468e7ea57a801c44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environnement/Cave Wall Textures/Rock Wall Textures 1/Rock Wall Textures 1/Rock v3/Materials/Wall without Texture 1_standardSurface1_BaseMap.mat using Guid(d46fafa44d1f2ee468e7ea57a801c44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbca063e293758b12be764d5793aff6d') in 0.019467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 11.637655 seconds.
+  path: Assets/Scenes/Shop.unity
+  artifactKey: Guid(d2b29dd5392f24c4b9bd5ca50dc2e70a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Shop.unity using Guid(d2b29dd5392f24c4b9bd5ca50dc2e70a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '041b8f37526bfe2857b5bb9f0e03289b') in 0.000665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 766.851100 seconds.
+  path: Assets/Environnement/Cave Wall Textures/Rock Wall Textures 1/Rock Wall Textures 1/Rock v2/Material rock 2.mat
+  artifactKey: Guid(80c51653911a2fb449905c707ade5207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environnement/Cave Wall Textures/Rock Wall Textures 1/Rock Wall Textures 1/Rock v2/Material rock 2.mat using Guid(80c51653911a2fb449905c707ade5207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0566544b834cf20e0d9b341833282ae3') in 0.023787 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 97.476286 seconds.
+  path: Assets/Packages Folders/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages Folders/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '435fa2a2d01f505ed8d31b05fcfb33a6') in 0.088140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Packages Folders/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages Folders/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efb0aa328ade433ba8dc3eb73c60fa81') in 0.092737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1055.593641 seconds.
+  path: Assets/Packages Folders/TextMesh Pro/Resources/Fonts & Materials
+  artifactKey: Guid(731f1baa9d144a9897cb1d341c2092b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages Folders/TextMesh Pro/Resources/Fonts & Materials using Guid(731f1baa9d144a9897cb1d341c2092b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a7eab248413d5372ca0e38f8fa86db8') in 0.002208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.061288 seconds.
+  path: Assets/Packages Folders/TextMesh Pro/Resources/TMP Settings.asset
+  artifactKey: Guid(3f5b5dff67a942289a9defa416b206f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages Folders/TextMesh Pro/Resources/TMP Settings.asset using Guid(3f5b5dff67a942289a9defa416b206f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03ea1972c79e2717dc61467c8ce2277e') in 0.029929 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 17.719821 seconds.
+  path: Assets/My Fonts
+  artifactKey: Guid(aeee1714019fe7746af1e18a4f81cbad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Fonts using Guid(aeee1714019fe7746af1e18a4f81cbad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ab762dbf5287470751259b0822cb58f') in 0.000547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 12.907367 seconds.
+  path: Assets/My Fonts/modern_dos
+  artifactKey: Guid(bac2da8e9e1f1d7459ec936915cac062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Fonts/modern_dos using Guid(bac2da8e9e1f1d7459ec936915cac062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9aead96432d9ffd22de3d53bed0e757') in 0.000664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.092224 seconds.
+  path: Assets/My Fonts/modern_dos/ModernDOS8x8.ttf
+  artifactKey: Guid(1343ea703ee421c42bb2a9c31953a546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Fonts/modern_dos/ModernDOS8x8.ttf using Guid(1343ea703ee421c42bb2a9c31953a546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74000342018bd9ece6ab2acf3feb3da0') in 0.022477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/My Fonts/modern_dos/ModernDOS9x14.ttf
+  artifactKey: Guid(e29d5aec643a328408355510a0277c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Fonts/modern_dos/ModernDOS9x14.ttf using Guid(e29d5aec643a328408355510a0277c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80aa3761f48b2632e0161096d011b1c1') in 0.012764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/My Fonts/modern_dos/ModernDOS8x16.ttf
+  artifactKey: Guid(be84d4024964cf640af183ed2217cd84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Fonts/modern_dos/ModernDOS8x16.ttf using Guid(be84d4024964cf640af183ed2217cd84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b8102c157913a33cdea2f9d3199c56f') in 0.014037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 49.896338 seconds.
+  path: Assets/My Fonts/modern_dos/ModernDOS8x14 SDF.asset
+  artifactKey: Guid(8b41d62fa6c7a7c4eabc682af9efbc46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Fonts/modern_dos/ModernDOS8x14 SDF.asset using Guid(8b41d62fa6c7a7c4eabc682af9efbc46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3578403284aa873975c2b6d55ca297d') in 0.030550 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 351.258543 seconds.
+  path: Assets/My Fonts/modern_dos/ModernDOS8x14 SDF.asset
+  artifactKey: Guid(8b41d62fa6c7a7c4eabc682af9efbc46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Fonts/modern_dos/ModernDOS8x14 SDF.asset using Guid(8b41d62fa6c7a7c4eabc682af9efbc46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0096069bc0640e48ac0a9fc9e93e065d') in 0.105499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 27.654344 seconds.
+  path: Assets/My Fonts/modern_dos/ModernDOS8x14 SDF.asset
+  artifactKey: Guid(8b41d62fa6c7a7c4eabc682af9efbc46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Fonts/modern_dos/ModernDOS8x14 SDF.asset using Guid(8b41d62fa6c7a7c4eabc682af9efbc46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65b95d92eb0512cbe7669b6a5aba6c78') in 0.034585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 100.249070 seconds.
+  path: Assets/My Fonts/modern_dos/ModernDOS8x14 SDF.asset
+  artifactKey: Guid(8b41d62fa6c7a7c4eabc682af9efbc46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Fonts/modern_dos/ModernDOS8x14 SDF.asset using Guid(8b41d62fa6c7a7c4eabc682af9efbc46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46442a531e76b7f35cad580c0aed096d') in 0.035339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
