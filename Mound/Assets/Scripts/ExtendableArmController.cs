@@ -10,20 +10,38 @@ public class ExtendableArmController : MonoBehaviour
     public float extendSpeed = 5f;
     public float retractSpeed = 5f;
     public float maxReach = 10f;
+    public float stoppingDistance = 0.1f;
 
-    public Image crosshair; // Reference to the crosshair UI Image
+    public Image crosshair;
 
     private Vector3 initialPosition;
     private bool isExtending;
     private bool isRetracting;
     private GameObject grabbedObject;
+    private Rigidbody armEndRigidbody;
 
     void Start()
     {
         initialPosition = armEnd.localPosition;
+
         if (playerCamera == null)
         {
             playerCamera = Camera.main.transform;
+        }
+
+        armEndRigidbody = armEnd.GetComponent<Rigidbody>();
+        if (armEndRigidbody == null)
+        {
+            Debug.LogError("The armEnd requires a Rigidbody component.");
+        }
+        else
+        {
+            armEndRigidbody.isKinematic = false;
+            armEndRigidbody.collisionDetectionMode = CollisionDetectionMode.Continuous;
+            armEndRigidbody.useGravity = false;
+            armEndRigidbody.drag = 5f; // Add drag to smooth out movement
+            armEndRigidbody.angularDrag = 10f; // High angular drag to prevent rotation
+            armEndRigidbody.constraints = RigidbodyConstraints.FreezeRotation; // Freeze rotation to prevent wobbling
         }
     }
 
@@ -55,16 +73,36 @@ public class ExtendableArmController : MonoBehaviour
     {
         isExtending = true;
         Vector3 targetPosition = playerCamera.position + playerCamera.forward * maxReach;
-        armEnd.position = Vector3.MoveTowards(armEnd.position, targetPosition, extendSpeed * Time.deltaTime);
+
+        // Calculate the desired velocity towards the target position
+        Vector3 direction = (targetPosition - armEnd.position).normalized;
+        Vector3 desiredVelocity = direction * extendSpeed;
+
+        // Apply velocity directly, this keeps the movement stable
+        armEndRigidbody.velocity = Vector3.Lerp(armEndRigidbody.velocity, desiredVelocity, Time.deltaTime * 5f);
+
+        // Check for stopping condition
+        if (Vector3.Distance(armEnd.position, targetPosition) < stoppingDistance)
+        {
+            armEndRigidbody.velocity = Vector3.zero; // Stop the movement
+            isExtending = false;
+        }
+
         CheckForGrabbable();
     }
 
     void RetractArm()
     {
-        armEnd.localPosition = Vector3.MoveTowards(armEnd.localPosition, initialPosition, retractSpeed * Time.deltaTime);
+        Vector3 direction = (armEnd.parent.TransformPoint(initialPosition) - armEnd.position).normalized;
+        Vector3 desiredVelocity = direction * retractSpeed;
 
-        if (Vector3.Distance(armEnd.localPosition, initialPosition) < 0.01f)
+        // Apply velocity directly to move back towards the initial position
+        armEndRigidbody.velocity = Vector3.Lerp(armEndRigidbody.velocity, desiredVelocity, Time.deltaTime * 5f);
+
+        // Check if the arm is near the initial position
+        if (Vector3.Distance(armEnd.position, armEnd.parent.TransformPoint(initialPosition)) < stoppingDistance)
         {
+            armEndRigidbody.velocity = Vector3.zero; // Stop the movement
             isRetracting = false;
             isExtending = false;
             grabbedObject = null;
@@ -87,18 +125,16 @@ public class ExtendableArmController : MonoBehaviour
 
     void GrabObject(GameObject obj)
     {
-        obj.SetActive(false);
-        grabbedObject = obj;
-        Debug.Log("Object grabbed and removed from the scene: " + obj.name);
+        Destroy(obj);
+        Debug.Log("Object grabbed and deleted: " + obj.name);
         isRetracting = true;
     }
 
     void UpdateCrosshair()
     {
-        // Optional: Change crosshair appearance when extending or retracting
         if (crosshair != null)
         {
-            crosshair.color = isRetracting ? Color.red : Color.white; // Change to red when retracting
+            crosshair.color = isRetracting ? Color.red : Color.white;
         }
     }
 }
