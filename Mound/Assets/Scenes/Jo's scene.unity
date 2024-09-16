@@ -1215,7 +1215,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 118
+  m_Constraints: 0
   m_CollisionDetection: 1
 --- !u!1 &1273034265
 GameObject:
@@ -2421,7 +2421,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6762575545665615097, guid: 6812cea91dbba2e4fafaca3cdd29987a, type: 3}
       propertyPath: extendSpeed
-      value: 5
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 6762575545665615097, guid: 6812cea91dbba2e4fafaca3cdd29987a, type: 3}
+      propertyPath: retractSpeed
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
